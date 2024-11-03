@@ -1,0 +1,312 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0718729a-bf60-4b31-9bb5-5e9472f4b5e7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>BrewDatabase</ID>
+  <Name>BrewDatabase</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6941" scrolltop="-2789" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="71" x="21548" y="13568" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fact_Brew" left="5504" top="5198" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="5207" height="7744" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e000057140000401e0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Fact_Brew" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Ingredient_Ratio" left="13423" top="6829" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="3683" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000630e000003090000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_Ingredient_Ratio" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Package_Style" left="6501" top="13954" logicalid="12" controlid="3" masterid="0" hint1="0" hint2="0" width="3196" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00007c0c000034060000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_Package_Style" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Date" left="7162" top="277" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00006b0a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_Date" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Style" left="798" top="7745" logicalid="14" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000034060000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Dim_Style" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3498" top="7590" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="2306" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Style]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="1" sourceattachpoint="11" destattachpoint="26" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="3798" y="7989" />
+                    <point x="4303" y="7989" />
+                    <point x="4303" y="7970" />
+                    <point x="5504" y="7970" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6600" top="12642" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="1812" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Package_Style]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="0" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="6999" y="13954" />
+                    <point x="6999" y="13541" />
+                    <point x="7007" y="13541" />
+                    <point x="7007" y="12942" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7163" top="2445" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3053" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Date]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="1" sourceattachpoint="1" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="7562" y="2944" />
+                    <point x="7562" y="3998" />
+                    <point x="7557" y="3998" />
+                    <point x="7557" y="5198" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="10411" top="7583" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="3312" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_Ingredient]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="16" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="13423" y="7982" />
+                    <point x="11807" y="7982" />
+                    <point x="11807" y="7970" />
+                    <point x="10711" y="7970" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-6941</DiagramViewPortLeft>
+            <DiagramViewPortTop>-2789</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>71</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>BrewDatabase</DataSourceID>
+  <Schema>
+    <xs:schema id="BrewDatabase" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="BrewDatabase" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="4b4d8b34-617d-4250-9c6d-bbd44ab32e3d">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Fact_Brew" msprop:DbSchemaName="dbo" msprop:design-time-name="dd32a042-ef89-4b0a-bf0e-840efd265bfc" msprop:FriendlyName="Fact_Brew" msprop:TableType="Table" msprop:DbTableName="Fact_Brew">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Batch_ID" msprop:FriendlyName="Batch_ID" msprop:DbColumnName="Batch_ID" msprop:design-time-name="d78aee9b-bb56-403a-bccd-b2895f95391d" type="xs:int" />
+                  <xs:element name="Fermentation_Time" msprop:FriendlyName="Fermentation_Time" msprop:DbColumnName="Fermentation_Time" msprop:design-time-name="372d3802-bf62-47ca-8221-22d09ca2174f" type="xs:int" minOccurs="0" />
+                  <xs:element name="Temperature" msprop:FriendlyName="Temperature" msprop:DbColumnName="Temperature" msprop:design-time-name="5cdb72eb-9d17-4358-aaf5-ebcdf8b87d7d" type="xs:float" minOccurs="0" />
+                  <xs:element name="pH_Level" msprop:FriendlyName="pH_Level" msprop:DbColumnName="pH_Level" msprop:design-time-name="3b1c43fe-266c-467d-8b92-6bf3329e758a" type="xs:float" minOccurs="0" />
+                  <xs:element name="Gravity" msprop:FriendlyName="Gravity" msprop:DbColumnName="Gravity" msprop:design-time-name="fef02e24-0ece-410c-8b19-df27c9ee3ba0" type="xs:float" minOccurs="0" />
+                  <xs:element name="Alcohol_Content" msprop:FriendlyName="Alcohol_Content" msprop:DbColumnName="Alcohol_Content" msprop:design-time-name="a85f2152-064c-47c1-8eec-41b41e29eac6" type="xs:float" minOccurs="0" />
+                  <xs:element name="Bitterness" msprop:FriendlyName="Bitterness" msprop:DbColumnName="Bitterness" msprop:design-time-name="43ec7ec4-c394-454f-8d19-81629ec52a52" type="xs:int" minOccurs="0" />
+                  <xs:element name="Color" msprop:FriendlyName="Color" msprop:DbColumnName="Color" msprop:design-time-name="556270b3-6f96-42d2-bfdf-d914d9c91c6d" type="xs:int" minOccurs="0" />
+                  <xs:element name="Volume_Produced" msprop:FriendlyName="Volume_Produced" msprop:DbColumnName="Volume_Produced" msprop:design-time-name="557ae8ac-8961-4412-a8d8-01a5d1b358f9" type="xs:int" minOccurs="0" />
+                  <xs:element name="Total_Sales" msprop:FriendlyName="Total_Sales" msprop:DbColumnName="Total_Sales" msprop:design-time-name="673e5005-2ca7-4356-9f19-fb927841fb48" type="xs:float" minOccurs="0" />
+                  <xs:element name="Quality_Score" msprop:FriendlyName="Quality_Score" msprop:DbColumnName="Quality_Score" msprop:design-time-name="3f3cd09e-4376-4e6a-93b9-ef4df328c473" type="xs:float" minOccurs="0" />
+                  <xs:element name="Brewhouse_Efficiency" msprop:FriendlyName="Brewhouse_Efficiency" msprop:DbColumnName="Brewhouse_Efficiency" msprop:design-time-name="4a9ff920-e5a8-4bd1-b18d-cc1bb1bd8217" type="xs:float" minOccurs="0" />
+                  <xs:element name="Loss_During_Brewing" msprop:FriendlyName="Loss_During_Brewing" msprop:DbColumnName="Loss_During_Brewing" msprop:design-time-name="108f2f59-fd09-4b44-b25f-619216d75cfa" type="xs:float" minOccurs="0" />
+                  <xs:element name="Loss_During_Fermentation" msprop:FriendlyName="Loss_During_Fermentation" msprop:DbColumnName="Loss_During_Fermentation" msprop:design-time-name="03f97f21-0430-459d-a749-84a54834a454" type="xs:float" minOccurs="0" />
+                  <xs:element name="Loss_During_Bottling_Kegging" msprop:FriendlyName="Loss_During_Bottling_Kegging" msprop:DbColumnName="Loss_During_Bottling_Kegging" msprop:design-time-name="417326d3-e668-4b4f-a397-a2606cc8bce0" type="xs:float" minOccurs="0" />
+                  <xs:element name="Style_Id" msprop:FriendlyName="Style_Id" msprop:DbColumnName="Style_Id" msprop:design-time-name="18bfa6c6-7201-49cf-be03-ca349174b764" type="xs:int" minOccurs="0" />
+                  <xs:element name="Brew_Date_Id" msprop:FriendlyName="Brew_Date_Id" msprop:DbColumnName="Brew_Date_Id" msprop:design-time-name="30126371-7a9e-4965-956a-8889f8892675" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Ingredient_Ratio_Id" msprop:FriendlyName="Ingredient_Ratio_Id" msprop:DbColumnName="Ingredient_Ratio_Id" msprop:design-time-name="b5d6e037-34fe-4971-8d31-fecbc50e37f9" type="xs:int" minOccurs="0" />
+                  <xs:element name="Package_Id" msprop:FriendlyName="Package_Id" msprop:DbColumnName="Package_Id" msprop:design-time-name="91308239-16cc-4d4c-8b8b-798e84bca9eb" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Ingredient_Ratio" msprop:DbSchemaName="dbo" msprop:design-time-name="b7edc8a2-c0f6-4097-be2a-d2a116e3eb1a" msprop:FriendlyName="Dim_Ingredient_Ratio" msprop:TableType="Table" msprop:DbTableName="Dim_Ingredient_Ratio">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Ingredient_Ratio_Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="Ingredient_Ratio_Id" msprop:DbColumnName="Ingredient_Ratio_Id" msprop:design-time-name="02bb2796-a205-455b-828e-5e207845b396" type="xs:int" />
+                  <xs:element name="Water_Ratio" msprop:FriendlyName="Water_Ratio" msprop:DbColumnName="Water_Ratio" msprop:design-time-name="cd666312-1663-40a5-b165-0b8c4d1f9368" type="xs:float" minOccurs="0" />
+                  <xs:element name="Grains_Ratio" msprop:FriendlyName="Grains_Ratio" msprop:DbColumnName="Grains_Ratio" msprop:design-time-name="45a334e9-3b4e-4944-a5f2-70af0965b082" type="xs:float" minOccurs="0" />
+                  <xs:element name="Hops_Ratio" msprop:FriendlyName="Hops_Ratio" msprop:DbColumnName="Hops_Ratio" msprop:design-time-name="3384b52d-bafd-4e37-9585-e1be97839fc7" type="xs:float" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Package_Style" msprop:DbSchemaName="dbo" msprop:design-time-name="99c3a739-c0fe-415e-a9ad-d50cbbfd1618" msprop:FriendlyName="Dim_Package_Style" msprop:TableType="Table" msprop:DbTableName="Dim_Package_Style">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Package_Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="Package_Id" msprop:DbColumnName="Package_Id" msprop:design-time-name="88d224d2-e45a-4e53-85ca-2e35bb5b992b" type="xs:int" />
+                  <xs:element name="Package_Name" msprop:FriendlyName="Package_Name" msprop:DbColumnName="Package_Name" msprop:design-time-name="a4e3b0a6-c669-446a-a2ff-ee659737bc5a" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="7" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Date" msprop:DbSchemaName="dbo" msprop:design-time-name="bdbd0366-eba3-4faf-887c-de704aab3f0d" msprop:FriendlyName="Dim_Date" msprop:TableType="Table" msprop:DbTableName="Dim_Date">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Brew_Date_Id" msprop:FriendlyName="Brew_Date_Id" msprop:DbColumnName="Brew_Date_Id" msprop:design-time-name="3c5c2693-59bd-4355-9004-2acf313908aa" type="xs:dateTime" />
+                  <xs:element name="Year" msprop:FriendlyName="Year" msprop:DbColumnName="Year" msprop:design-time-name="72ecc318-82af-4697-8b3a-41d5d902d48f" type="xs:int" minOccurs="0" />
+                  <xs:element name="Month" msprop:FriendlyName="Month" msprop:DbColumnName="Month" msprop:design-time-name="9255fad6-3ac3-48fd-8441-b8aa39a450a6" type="xs:int" minOccurs="0" />
+                  <xs:element name="Day" msprop:FriendlyName="Day" msprop:DbColumnName="Day" msprop:design-time-name="c374543d-18a4-4757-9408-df8d0c7f3903" type="xs:int" minOccurs="0" />
+                  <xs:element name="Quarter" msprop:FriendlyName="Quarter" msprop:DbColumnName="Quarter" msprop:design-time-name="2ee4d0ab-e21b-4740-a87c-2b8192712041" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Style" msprop:DbSchemaName="dbo" msprop:design-time-name="31090a59-0853-47e9-87e5-200d91c043fe" msprop:FriendlyName="Dim_Style" msprop:TableType="Table" msprop:DbTableName="Dim_Style">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Style_Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="Style_Id" msprop:DbColumnName="Style_Id" msprop:design-time-name="5c164043-0aa5-4386-a172-f5c6525c991c" type="xs:int" />
+                  <xs:element name="Style_Name" msprop:FriendlyName="Style_Name" msprop:DbColumnName="Style_Name" msprop:design-time-name="dad29cba-8f44-47e0-9595-bced76416a0e" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Fact_Brew" />
+          <xs:field xpath="Batch_ID" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Ingredient_Ratio_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Ingredient_Ratio" />
+          <xs:field xpath="Ingredient_Ratio_Id" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Package_Style_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Package_Style" />
+          <xs:field xpath="Package_Id" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Date_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Date" />
+          <xs:field xpath="Brew_Date_Id" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Style_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Style" />
+          <xs:field xpath="Style_Id" />
+        </xs:unique>
+        <xs:keyref name="FK_Style" refer="dbo_Dim_Style_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Brew" />
+          <xs:field xpath="Style_Id" />
+        </xs:keyref>
+        <xs:keyref name="FK_Package_Style" refer="dbo_Dim_Package_Style_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Brew" />
+          <xs:field xpath="Package_Id" />
+        </xs:keyref>
+        <xs:keyref name="FK_Date" refer="dbo_Dim_Date_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Brew" />
+          <xs:field xpath="Brew_Date_Id" />
+        </xs:keyref>
+        <xs:keyref name="FK_Ingredient" refer="dbo_Dim_Ingredient_Ratio_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Brew" />
+          <xs:field xpath="Ingredient_Ratio_Id" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <BrewDatabase xmlns="" />
+  </Schema>
+</DataSourceView>
