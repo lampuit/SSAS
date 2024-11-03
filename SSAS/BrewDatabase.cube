@@ -546,7 +546,14 @@ You should edit this command only if you manually specify how the cube is aggreg
 */
 CALCULATE; 
 CREATE DYNAMIC SET CURRENTCUBE.[Cau1]
- AS TOPCOUNT([Dim Style].[Style Name].[Style Name].MEMBERS,3,[Measures].[Total Sales]) ; </Text>
+ AS TOPCOUNT([Dim Style].[Style Name].[Style Name].MEMBERS,3,[Measures].[Total Sales]) ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[Fermentation TIme Average]
+ AS IIF(
+        [Measures].[Batch Count] &gt; 0,
+        ROUND([Measures].[Fermentation Time Sum] / [Measures].[Batch Count], 3),
+        null
+    ), 
+VISIBLE = 1  ; </Text>
         </Command>
       </Commands>
     </MdxScript>
