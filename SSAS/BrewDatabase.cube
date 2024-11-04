@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7f98747f-f2d8-4957-9407-885546633d93" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9813d2a6-5a9c-4627-aa96-acf79ab00d43" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>BrewDatabase</ID>
   <Name>BrewDatabase</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -185,81 +185,81 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="8f892d17-354c-4f62-b5b0-400cdb3ec855">
+    <Dimension dwd:design-time-name="e7e9ec8b-0c1a-447e-bb9d-27fd0e4a12d0">
       <ID>Dim Style</ID>
       <Name>Dim Style</Name>
       <DimensionID>Dim Style</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="276e45d7-9a98-4a3f-ab9f-145c1dc00fd3">
+        <Attribute dwd:design-time-name="07c76e24-1cf7-462f-b365-8c72ad504056">
           <AttributeID>Style Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d3f147c1-69f8-4870-9992-eca8a6421e9d">
+        <Attribute dwd:design-time-name="6453ade3-e8d4-4360-b490-ebdfd44931af">
           <AttributeID>Style Name</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="a5b7f7fa-756f-4a70-bedf-1b32458f517d">
+    <Dimension dwd:design-time-name="fc584265-27e7-4a93-97a9-6fdb51f34ea2">
       <ID>Dim Package Style</ID>
       <Name>Dim Package Style</Name>
       <DimensionID>Dim Package Style</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="5b1683ec-b852-4be7-901e-a311730c75ec">
+        <Attribute dwd:design-time-name="5613bf71-a9da-4da9-bc4d-5e382c9f683f">
           <AttributeID>Package Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8e4dd1ec-0106-4ae5-aab3-70d6b4da4142">
+        <Attribute dwd:design-time-name="388b39f6-ee7d-4037-aa02-35383106dfeb">
           <AttributeID>Package Name</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="0fc5386b-0b5a-459c-a220-93c0104cd9b0">
+    <Dimension dwd:design-time-name="79523806-397d-45a2-890a-403c9cd08fbe">
       <ID>Dim Date</ID>
       <Name>Dim Date</Name>
       <DimensionID>Dim Date</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="248b59d2-0bb5-462e-bdcf-806bcab56930">
+        <Attribute dwd:design-time-name="31f8fd78-aca8-4488-b436-c2d193d57a24">
           <AttributeID>Brew Date Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ea7e7a3e-4a39-479f-9a9f-2743cf9ae9ad">
+        <Attribute dwd:design-time-name="65648b79-7cc4-4467-8e05-646309a50355">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f9820375-bc6d-49fc-8374-ad346c255aec">
+        <Attribute dwd:design-time-name="fe5582c8-e590-46d1-a1c5-bc91739927a2">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8844d985-3ea7-4752-94f5-29238e87150f">
+        <Attribute dwd:design-time-name="af23b676-7e3f-4ae5-96ce-bafe44a1095b">
           <AttributeID>Day</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0027f8d1-bc29-42f1-b4dc-bb77e76d0e0c">
+        <Attribute dwd:design-time-name="06d9dac6-1009-4a9d-b436-73372263f746">
           <AttributeID>Quarter</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="4d1f8ea5-c64b-4abf-af75-968992d8ad6c">
+        <Hierarchy dwd:design-time-name="6624a223-8fec-4a3f-9832-078c3a0eb54d">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="7f290b9e-8ccd-44e5-ad92-e6c7fa86acce">
+    <Dimension dwd:design-time-name="5d978712-fd02-45a2-8aec-32af99bdf421">
       <ID>Dim Ingredient Ratio</ID>
       <Name>Dim Ingredient Ratio</Name>
       <DimensionID>Dim Ingredient Ratio</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="5fe7b92f-b424-4517-b242-841c20fdeb52">
+        <Attribute dwd:design-time-name="f5a92189-bfbf-4c21-905e-796b5f561bbf">
           <AttributeID>Ingredient Ratio Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="47960775-a009-4286-a712-8c96c4701a77">
+        <Attribute dwd:design-time-name="4e98ac8d-bd3b-4417-940b-eac106c98868">
           <AttributeID>Water Ratio</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9095aff1-821c-4272-8c13-76220bea5f0b">
+        <Attribute dwd:design-time-name="9d59af61-6c77-4eb0-aad4-e18d8c5271f2">
           <AttributeID>Grains Ratio</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="efbfff02-a59c-488a-aa91-fc7d8467edee">
+        <Attribute dwd:design-time-name="216dd0cc-be1b-49f3-ae62-7d75fce51ba1">
           <AttributeID>Hops Ratio</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="0402dcab-bf39-4bba-8215-09377275419a">
+    <MeasureGroup dwd:design-time-name="692db5f4-a7d8-4310-8503-796e444c9bfb">
       <ID>Fact Brew</ID>
       <Name>Fact Brew</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -267,179 +267,179 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="10d87415-0bae-4b73-974c-0eb6c08f0a63">
+        <Measure dwd:design-time-name="a458f108-1047-4f26-951d-b68f304942b9">
           <ID>Fermentation Time</ID>
           <Name>Fermentation Time Sum</Name>
-          <Source dwd:design-time-name="cd793ae5-646f-44aa-a22d-1d898bba7e8e">
+          <Source dwd:design-time-name="1ed71c2b-0861-4c55-895e-5bb622bdeb02">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="4a0a7e8e-7537-4f08-b1f6-df59bd604777">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5f059039-64ed-4191-964a-2cb60bdcad29">
               <TableID>dbo_Fact_Brew</TableID>
               <ColumnID>Fermentation_Time</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="bdfd65f8-b140-4d86-b65c-3c070054acd7">
+        <Measure dwd:design-time-name="e51adec6-0f1f-4bff-b48e-a500341a644e">
           <ID>Temperature</ID>
           <Name>Temperature Average</Name>
           <AggregateFunction>AverageOfChildren</AggregateFunction>
-          <Source dwd:design-time-name="4fa259b9-50c6-4a14-83f2-83ad7d0e0f54">
+          <Source dwd:design-time-name="c99dfccb-2d3a-4aa6-9ce0-6bda8ec8bfa8">
             <DataType>Single</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="40dab601-6502-4d31-9cea-4b9e1acc5ced">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="be6aadd6-1a73-4bbb-88e7-57aa1dcf6393">
               <TableID>dbo_Fact_Brew</TableID>
               <ColumnID>Temperature</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="d1bf375b-fbb9-43b1-9c82-1815f60a4d14">
+        <Measure dwd:design-time-name="a2fb2161-1129-4ba0-b51d-f2068db8c499">
           <ID>p H Level</ID>
           <Name>pH Level Average</Name>
           <AggregateFunction>AverageOfChildren</AggregateFunction>
-          <Source dwd:design-time-name="af4641e1-8c4b-47ed-b65a-f547b4c70a34">
+          <Source dwd:design-time-name="eb1552a4-33df-4b94-8fbc-32e4c36bdc97">
             <DataType>Single</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="326bdb38-066f-43be-93b1-344d9d56b1cd">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4a33c53d-500e-4963-92fc-434b65ebeaad">
               <TableID>dbo_Fact_Brew</TableID>
               <ColumnID>pH_Level</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="14af534a-d55d-426e-9b58-033ffa10bc34">
+        <Measure dwd:design-time-name="7b20833d-b142-4bc6-953c-7343a7ae1c98">
           <ID>Gravity</ID>
           <Name>Gravity Average</Name>
           <AggregateFunction>AverageOfChildren</AggregateFunction>
-          <Source dwd:design-time-name="ac0f6408-8d07-4323-a9fc-c1ca7e290e08">
+          <Source dwd:design-time-name="4c7bd8e3-913c-48b8-abdd-a54a7f6cd334">
             <DataType>Single</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="d300f09d-fe2e-4681-a4c2-a5c43cb1a803">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6636c5af-418c-45dc-a43f-a9f1ba9443fe">
               <TableID>dbo_Fact_Brew</TableID>
               <ColumnID>Gravity</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="673220e5-38e7-40e2-b88d-51d5e2abbe20">
+        <Measure dwd:design-time-name="7dc9d6d2-7a19-4490-9a02-177d1d1d5953">
           <ID>Alcohol Content</ID>
           <Name>Alcohol Content Average</Name>
           <AggregateFunction>AverageOfChildren</AggregateFunction>
-          <Source dwd:design-time-name="1293476c-04bc-4118-bf7b-58a9829f5e3c">
+          <Source dwd:design-time-name="83ecb1d1-e088-4cee-a2de-7c5305c793a9">
             <DataType>Single</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="c79ad4c4-495e-499d-b908-8277f50b14ea">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="81a8edc3-09f6-4bb5-9aab-9219e5118fcd">
               <TableID>dbo_Fact_Brew</TableID>
               <ColumnID>Alcohol_Content</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="43d31e32-b6a5-418c-af91-92f5d7e4d5ae">
+        <Measure dwd:design-time-name="9013eb4e-ed3e-4a66-b34f-4fe4b349cb02">
           <ID>Bitterness</ID>
           <Name>Bitterness Average</Name>
           <AggregateFunction>AverageOfChildren</AggregateFunction>
-          <Source dwd:design-time-name="2b832fe6-b689-4539-8b8f-e5de27f32720">
+          <Source dwd:design-time-name="ec6c93b5-8edf-4a31-91ec-f7c85fc3156d">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="595d1c77-795e-4681-aed1-ac0cd037fb7c">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f147aa50-9ffd-4935-a1a3-9c3317b9c4bf">
               <TableID>dbo_Fact_Brew</TableID>
               <ColumnID>Bitterness</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="24c47698-fa99-42d0-bfbb-9299c78f5160">
+        <Measure dwd:design-time-name="ac27a67e-a85b-4e17-bc0b-272c2f501c18">
           <ID>Color</ID>
           <Name>Color Average</Name>
           <AggregateFunction>AverageOfChildren</AggregateFunction>
-          <Source dwd:design-time-name="2c1b9258-2afd-40b4-8eb6-5f335bf3ab57">
+          <Source dwd:design-time-name="5c85d183-5a1a-49b2-aded-ba9ed9f28839">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="9977c934-f084-47e6-ad0c-64a60135ab72">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9029ce18-e367-4362-8fcd-dd3e7193ff4a">
               <TableID>dbo_Fact_Brew</TableID>
               <ColumnID>Color</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="3fde0483-6f15-4196-8a3b-b4b331d50af8">
+        <Measure dwd:design-time-name="f61e9fcb-0c9e-498e-9e7f-d14f690ec615">
           <ID>Volume Produced</ID>
           <Name>Volume Produced Sum</Name>
-          <Source dwd:design-time-name="659ba265-2560-40ce-941b-0c2ff61c283e">
+          <Source dwd:design-time-name="8f1428c1-98e4-4530-85fb-b5503191f55e">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="a5a06ad2-b22c-4489-8a6d-ab667f80068a">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fae2a41d-517a-46d6-8216-6024b54b9d4f">
               <TableID>dbo_Fact_Brew</TableID>
               <ColumnID>Volume_Produced</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="3416ca40-d6cf-4400-a812-ed32e7fdcc40">
+        <Measure dwd:design-time-name="8be913f1-eeca-4865-a8dc-e459ba4adb64">
           <ID>Total Sales</ID>
           <Name>Total Sales</Name>
-          <Source dwd:design-time-name="6c868343-c075-4ed7-9f71-15d4b6e9b671">
+          <Source dwd:design-time-name="808a9107-fb31-4c50-a3e8-505a5c146897">
             <DataType>Currency</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="10c92d4b-3c70-425f-8bb8-ee6a2f0ed9a3">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="af8d7876-1449-43e4-8d3b-dbe66baa74ee">
               <TableID>dbo_Fact_Brew</TableID>
               <ColumnID>Total_Sales</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="ab103a32-ebcc-4136-b1ee-0b4e5e84d1db">
+        <Measure dwd:design-time-name="6bcef4e1-c7fc-4b66-99c8-c0af4b1947d9">
           <ID>Quality Score</ID>
           <Name>Quality Score Average</Name>
           <AggregateFunction>AverageOfChildren</AggregateFunction>
-          <Source dwd:design-time-name="ea0f4b27-5d1e-4d99-a9f7-2a28a7e1e315">
+          <Source dwd:design-time-name="50986cfe-49a9-4201-ba69-d0a3f515db6b">
             <DataType>Single</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="527b58e6-cdea-48be-8882-7d28afc4e7ac">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6d86a61f-9a24-42af-97f4-8ee1526b6eed">
               <TableID>dbo_Fact_Brew</TableID>
               <ColumnID>Quality_Score</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="89d9a9ba-78ee-4c85-96e2-334304b76cd8">
+        <Measure dwd:design-time-name="7e413e28-5a5d-4e22-8516-ada9f2ebbdec">
           <ID>Brewhouse Efficiency</ID>
           <Name>Brewhouse Efficiency Average</Name>
           <AggregateFunction>AverageOfChildren</AggregateFunction>
-          <Source dwd:design-time-name="d97edf56-bf8d-4370-996c-d17c05ce520e">
+          <Source dwd:design-time-name="d3ff165f-1154-4488-a777-4cfd96f38f39">
             <DataType>Single</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="4ed5dc4f-6fce-419c-9b93-d1db4c88c543">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7ae5d728-d3b5-4958-9c82-380d47f9988a">
               <TableID>dbo_Fact_Brew</TableID>
               <ColumnID>Brewhouse_Efficiency</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="f4755b9d-ed4b-4ce2-9338-5b03ffef640c">
+        <Measure dwd:design-time-name="739d0d6d-d48a-42f9-92cc-4ac36155cf18">
           <ID>Loss During Brewing</ID>
           <Name>Loss During Brewing Average</Name>
           <AggregateFunction>AverageOfChildren</AggregateFunction>
-          <Source dwd:design-time-name="b9d998ad-11e4-4eee-8f1d-b46df089837f">
+          <Source dwd:design-time-name="03b9dc7d-6052-4b32-b5ea-60bf1a35da04">
             <DataType>Single</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="74fe6f79-516d-4e35-8f93-dcdf679c946c">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b6ce858b-8a7a-4ecf-8ea5-c752be2cd947">
               <TableID>dbo_Fact_Brew</TableID>
               <ColumnID>Loss_During_Brewing</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="e2254154-b219-4cd2-8e92-2c2569f6060f">
+        <Measure dwd:design-time-name="5c8fd16e-b983-4423-b6f5-7d7bdef6ff04">
           <ID>Loss During Fermentation</ID>
           <Name>Loss During Fermentation Average</Name>
           <AggregateFunction>AverageOfChildren</AggregateFunction>
-          <Source dwd:design-time-name="9094bb85-15f8-47bf-976d-9f2cbfbc6317">
+          <Source dwd:design-time-name="d216c7a7-7990-48b3-8163-a92005cdb110">
             <DataType>Single</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="8a087877-2d4e-405f-a281-b6daabd984e3">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9e469964-b059-4f67-bd55-22663ca6102f">
               <TableID>dbo_Fact_Brew</TableID>
               <ColumnID>Loss_During_Fermentation</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="43301d7d-0c18-475f-a29d-b0399ba1b002">
+        <Measure dwd:design-time-name="8928d6af-8125-44b8-b2f2-88a49a884bf0">
           <ID>Loss During Bottling Kegging</ID>
           <Name>Loss During Bottling Kegging Average</Name>
           <AggregateFunction>AverageOfChildren</AggregateFunction>
-          <Source dwd:design-time-name="e1c95e95-bd72-4b07-b8da-49ca140bb14f">
+          <Source dwd:design-time-name="3f4c05aa-2551-45da-a6f7-1014024b212f">
             <DataType>Single</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="075661d4-b916-49de-9912-5eceb39f4f5c">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="863dca98-f6c2-4b3b-9144-0a4262a751ed">
               <TableID>dbo_Fact_Brew</TableID>
               <ColumnID>Loss_During_Bottling_Kegging</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="d892d302-e57e-4aaa-9ba8-66f2b1f63ea5">
+        <Measure dwd:design-time-name="abbd9bb7-1f54-4521-831b-c485d136e89c">
           <ID>Fact Brew Count</ID>
           <Name>Batch Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="6d23b8aa-a884-4aaf-96c4-54668b14796c">
+          <Source dwd:design-time-name="ce01f931-5045-40de-ba32-42551b90743c">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="9475b58f-4217-402f-820a-a222dcc4b44a">
+            <Source xsi:type="RowBinding" dwd:design-time-name="c8f9f70d-53f9-4b43-9842-12037f4251ff">
               <TableID>dbo_Fact_Brew</TableID>
             </Source>
           </Source>
@@ -448,16 +448,16 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="414d918d-4012-499e-8710-404025e75e06">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="147e241f-dfdd-4027-9df6-a3818873a722">
           <CubeDimensionID>Dim Style</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="5d2354f5-0618-46e5-8da1-3d4f7e657cb7">
+            <Attribute dwd:design-time-name="86301e9d-6eae-4c51-8e02-ce03395a05d1">
               <AttributeID>Style Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="2456ca16-f1aa-46cc-ae47-49c78f840a4a">
+                <KeyColumn dwd:design-time-name="34717447-8039-4035-b537-936049653f05">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="895ae629-0404-4ac4-a5b8-cbc9fc4eee77">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="901578a8-64b5-4eda-b8cb-607774d7ebfb">
                     <TableID>dbo_Fact_Brew</TableID>
                     <ColumnID>Style_Id</ColumnID>
                   </Source>
@@ -467,16 +467,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4e8c0799-1bbb-48da-bb94-1e1636dad51b">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cdbdd234-53d6-428b-b054-74e0d8d5e2d0">
           <CubeDimensionID>Dim Package Style</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="ff4408d5-10f3-4f9e-adb0-03adf629a21e">
+            <Attribute dwd:design-time-name="39872680-d749-4982-8492-6071b33621c3">
               <AttributeID>Package Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="5b8b87f9-0fed-4a38-80a3-b8d782c2d326">
+                <KeyColumn dwd:design-time-name="6feb3dc5-37c7-499a-a59c-4a4d8ff96ffd">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7f120b46-c6da-47a8-8d2b-ad80ec0896be">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1a7f708a-4bfb-4b6b-bc61-86a4b051f103">
                     <TableID>dbo_Fact_Brew</TableID>
                     <ColumnID>Package_Id</ColumnID>
                   </Source>
@@ -486,16 +486,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7d94cff1-a3b5-4562-a8a6-ebeabf0d1c0b">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ef3faae5-3e5a-4d20-a651-8377bff32baf">
           <CubeDimensionID>Dim Date</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="528029cf-c756-45b7-af63-d3a966573a2d">
+            <Attribute dwd:design-time-name="cc5f6fc2-67de-4ddc-93a8-eddc9ebb63c0">
               <AttributeID>Brew Date Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d8197996-5740-40da-9f74-535da60c6f40">
+                <KeyColumn dwd:design-time-name="5b7db0ee-5b2f-4f09-96ef-787496eee8a0">
                   <DataType>Date</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="225f083e-d6bf-4244-9c9e-613a552a6aaf">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="61f04fc7-a7cd-4e2d-978e-5fbaecf27790">
                     <TableID>dbo_Fact_Brew</TableID>
                     <ColumnID>Brew_Date_Id</ColumnID>
                   </Source>
@@ -505,16 +505,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="91130592-91e3-4733-a205-feb04edca2db">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="49263228-ad2e-4eae-b74c-eb02a83837dd">
           <CubeDimensionID>Dim Ingredient Ratio</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="9d540a64-8bf9-40bb-b29d-d8bec14c64ce">
+            <Attribute dwd:design-time-name="e11d6ac8-9711-4b79-80da-611c3f9b8d43">
               <AttributeID>Ingredient Ratio Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="4aa0bf3e-d1b9-41bf-978b-a6e145597f32">
+                <KeyColumn dwd:design-time-name="dab9528b-702d-48dc-8606-d4fbbca6ebdf">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ebc26269-d8c8-442c-9fae-740dfdcfc5e3">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a7455755-c178-4d92-b217-57fc44679986">
                     <TableID>dbo_Fact_Brew</TableID>
                     <ColumnID>Ingredient_Ratio_Id</ColumnID>
                   </Source>
@@ -528,11 +528,11 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="20b1d4bf-e18d-4151-8f98-353f9fed2ffa">
+  <Source dwd:design-time-name="ccdb6c02-e70a-418c-9bad-95fb10893fb8">
     <DataSourceViewID>BrewDatabase</DataSourceViewID>
   </Source>
   <MdxScripts>
-    <MdxScript dwd:design-time-name="6d3bf1db-bfee-455b-83ef-0884ebcdad51">
+    <MdxScript dwd:design-time-name="83602783-bd65-48b8-b6ac-6f480db27b33">
       <ID>MdxScript</ID>
       <Name>MdxScript</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -544,9 +544,9 @@ The CALCULATE command controls the aggregation of leaf cells in the cube.
 If the CALCULATE command is deleted or modified, the data within the cube is affected.
 You should edit this command only if you manually specify how the cube is aggregated.
 */
-CALCULATE; 
+CALCULATE;  
 CREATE DYNAMIC SET CURRENTCUBE.[Cau1]
- AS TOPCOUNT([Dim Style].[Style Name].[Style Name].MEMBERS,3,[Measures].[Total Sales]) ; 
+ AS TOPCOUNT([Dim Style].[Style Name].[Style Name].MEMBERS,3,[Measures].[Total Sales]);  
 CREATE MEMBER CURRENTCUBE.[Measures].[Fermentation TIme Average]
  AS IIF(
         [Measures].[Batch Count] &gt; 0,
